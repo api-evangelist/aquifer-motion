@@ -1,0 +1,30 @@
+generated: '2026-09-25'
+method: searched
+generator: extract-docs-artifacts.py (local)
+source: https://www.aquifermotion.com/plans
+sources:
+- https://www.aquifermotion.com/plans
+name: Aquifer Motion pricing
+audience: business-product
+pricing_basis: per-seat
+plans:
+- name: Free
+  price_text: $0
+  price: 0
+  description: No custom brand onboarding in Free plan
+- name: Professional
+  price_text: Starts at $1000 / month
+  price: 1000
+  description: 'Everything in Free plus: Access character-specific movement options, MP4 1080p video export, 5000 render credits per month, Video
+    dashboard with unlimited storage, Save scene templates for efficient localization & versioning'
+- name: Professional
+  price_text: Starts at $800 / month
+  price: 800
+  description: 'Everything in Free plus: Access character-specific movement options, MP4 1080p video export, 5000 render credits per month, Video
+    dashboard with unlimited storage, Save scene templates for efficient localization & versioning (50% discount)'
+- name: Enterprise
+  price_text: Contact us
+  description: 'Custom brand onboarding, unlimited editor package options, custom smart movement options, everything in Professional plus: Generate
+    character-specific automatic phoneme shapes & facial expressions, Export ProRes with alpha channel, Detailed expression controls, Lighting
+    controls, Priority rendering, Custom monthly credits'
+docs: https://www.aquifermotion.com/plans

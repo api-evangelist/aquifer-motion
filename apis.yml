@@ -1,23 +1,71 @@
 aid: aquifer-motion
+
 name: Aquifer Motion
-description: 'Aquifer Motion is a company surfaced via the API Evangelist harvest backlog (source: secondary-market)
-  and added to the network as a stub for full-pipeline profiling.'
+
+description: 'Aquifer Motion provides an instant animation platform enabling brands and creators to produce studio‑quality animated videos quickly, without needing animation expertise. The SaaS solution offers text‑to‑animation, automatic lip‑sync, facial expressions, body movements, and export options for social media, marketing, education, and entertainment, empowering teams to create dynamic content at scale.'
+
 url: https://raw.githubusercontent.com/api-evangelist/aquifer-motion/refs/heads/main/apis.yml
+
 x-type: company
+
 x-source: harvest:secondary-market
-x-tier: stub
-x-tier-reason: harvest
+
+x-tier: profiled
+x-tier-reason: enrichment pass 2026-09-25 (modular-v1; was harvest)
+
 specificationVersion: '0.20'
+
 created: '2026-09-25'
+
 modified: '2026-09-25'
+
 tags:
+- Animation
+- SaaS
+- Media
+- Marketing
+- Education
 - Company
-apis: []
+
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+
 common:
+- type: Plans
+  url: plans/aquifer-motion-plans-pricing.yml
+- type: Hosts
+  url: hosts/aquifer-motion-hosts.yml
+- type: Vendors
+  url: vendors/aquifer-motion-vendors.yml
+- type: TermsOfService
+  url: https://www.aquifermotion.com/terms-conditions
+- type: PrivacyPolicy
+  url: https://www.aquifermotion.com/privacy-policy
+- type: Pricing
+  url: https://www.aquifermotion.com/plans
+- type: Blog
+  url: https://www.aquifermotion.com/blog
+- type: DomainSecurity
+  url: security/aquifer-motion-domain-security.yml
 - type: Website
-  url: https://www.nasdaqprivatemarket.com/
+  url: https://www.aquifermotion.com/
+
+apis: []
+
+x-coverage:
+  state: none
+  reason: no-developer-program
+  detail: No public API documentation or machine‑readable contract was found for Aquifer Motion.
+  evidence:
+    - url: https://api.aquifermotion.com/openapi.json
+      status: 0
+  checked: 2026-09-25
+x-enrichment:
+  date: '2026-09-25'
+  status: enriched
+  artifacts_added: 6
+  pass: modular-v1
+  engine: identity=local,contract=local,surfaces=local,docs=local
